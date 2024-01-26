@@ -1351,7 +1351,7 @@ $$\sum V = \boxed{\underbrace{\frac{kQ_1}{r_{1,2}}}_{V_1}+\underbrace{\frac{kQ_2
 Below is a diagram of equipotential lines around a positive point charge $Q$ at the origin.
 
 <figure align="center">
-  <img src="Topic_IE_Homework_Problem_1.gif" style="height: 200px; width:auto">
+  <img src="Topic_IE_Studio_Problem_1.gif" style="height: 200px; width:auto">
   <figcaption><b>Fig.19</b> - Conceptual Potential.</figcaption>
 </figure>
 
@@ -1376,3 +1376,109 @@ The following are a series of <u> true </u> statements that correspond to the im
 - The force from Q on a negatively charged particle placed at B is oriented <u>towards</u> the charge $Q$.
 
 - The magnitude of the force on a positive test charge at $B$ is <u>equal to</u> the magnitude of the force on the charge at $C$.
+
+##### Problem 2: Positive Charge
+We have an object with a positive charge of $q_1=3 \mu \mathrm{C}$ fixed in place. We take another object of positive charge $q_2=4.5 \mu \mathrm{C}$ and mass $m=7.3 \mathrm{~g}$ and fire it towards the fixed charge, with initial speed $v=49.1 \mathrm{~m} / \mathrm{s}$. The two particles start with a separation of $d=5.5 \mathrm{~cm}$.
+
+What is the closest the moving charge gets to the fixed charge before it comes to rest and begins to move away?
+
+$$K_i+U_i = K_f + U_f$$
+
+$$\frac{1}{2}mv^{2}+\frac{kq_{1}q_{2}}{d}=\frac{kq_{1}q_{2}}{x}$$
+
+$$x_{f}=\boxed{\frac{2kq_{1}q_{2}d}{mv^{2}d+2kq_{1}q_{2}}}$$
+
+##### Problem 3: More Conceptual Potential
+
+<figure align="center">
+  <img src="Topic_IE_Studio_Problem_3.gif" style="height: 200px; width:auto">
+  <figcaption><b>Fig.19</b> - Conceptual Potential.</figcaption>
+</figure>
+
+The picture above shows equipotential lines in some region of space. The voltage varies by $V_{0}$ for every distance $h$ in the $y$-direction. The voltage is $0$ at the origin.
+
+Conceptual questions:
+
+- The potential energy of a negatively charged particle released at point $C$ will <u>decrease</u>.
+
+- The voltage seen by a positively charged particle released at point $C$ will <u>decrease</u>.
+
+- If a positively charged particle is released at $B$, it will travel <u>down</u>.
+
+To help make sense of this situation, it would be handy if we had an expression or value for the electric field. We have a graph of equipotential lines, which we can use to find an expression for the voltage. After we have that expression we can use it to find an expression for the electric field.
+
+Go ahead and find the expression for voltage in terms of $h$, $V_0$ , and the coordinates $x$, and $y$. Note that the voltage varies linearly with the $y$-coordinate, so your expression should involve a slope and an intercept.
+
+$$V=\boxed{\frac{V_{0}}{h}\cdot y}$$
+
+Now, derive the expression of the electric field in terms of constants and the position variables $x$, and/or $y$. Remember that in lecture we treated field as basically the slope on the voltage plots, except that we had to be careful with sign.
+
+$$\boxed{E_{x}=0; \quad E_{y}=-\frac{V_{0}}{h}; \quad E_{z}=0}$$
+
+That's a good result. The electric field turns out to be constant with a linear voltage. Think about what kinds of physical situations can result in a voltage like this one.
+
+Knowing both the voltage and the electric field, we can describe the motion of a charged particle.
+
+Let's suppose we place a negative charge $-q$ at rest at point $A$. It'll start moving, and let's say that after it has traveled a distance $d$, it has reached some speed $v$.
+
+Most problems in physics can be solved in many different ways. Some take a lot more time than others. The easiest way to find the final speed of the charge would be using <u>energy conservation.</u>
+
+In this specific case, the force approach turns out not to be that much harder than the energy approach. But since we have well-defined initial and final conditions, and all the kinetic and potential energies involved are fairly straightforward, energy conservation is a very safe choice. Find an algebraic expression for the magnitude of the final velocity of the charge in terms of its charge $-q$, mass $m$, and other constants. Don't forget that the charge is of magnitude $q$, but is negative in sign.
+
+Some things to consider:
+
+- It's easy to make sign errors during conservation of energy, so start from the most general possible expression of that: $U_i + K_i = U_f + K_f$
+
+The potential energy does not come from the interaction of two point charges, so $\frac{kq_1q_2}{r}$ doesn't apply. Start from the most general possible equation: $U=qV$. And check the sign of $q$.
+
+$$-qV_{0}=\frac{1}{2}mv^{2}-\frac{qV_{0}\left(h+d\right)}{h}$$
+
+$$v=\boxed{\sqrt{\frac{2V_{0}\left(-q+\frac{q\left(h+d\right)}{h}\right)}{m}}}$$
+
+Now, find out numerically how much time it takes a charge $-q$ to travel a distance $d$ if it is released from rest at point $A$. Note that the acceleration of the charge will be constant, so choose a kinematics approach that takes advantage of that fact.
+
+$$\boxed{t=\frac{2d}{v}}$$
+
+##### Problem 6: Two Systems of Charge
+
+<figure align="center">
+  <img src="Topic_IE_Studio_Problem_6.png" style="height: 200px; width:auto">
+  <figcaption><b>Fig.20</b> - Two Systems of Charge.</figcaption>
+</figure>
+
+The above shows two separate systems. In each we have four charges of equal magnitude arranged in a square of side length 
+$L$. Some are positive and some are negative. Points $A$ and $C$ are at the exact centers of their respective squares. Points $B$ and $C$ are centered on the line connecting the bottom two charges in their squares. <b>True</b> statements are as follows: 
+
+- The electric field at $A$ is zero.
+- The voltage at $A$ is zero.
+- The voltage at $B$ is zero.
+- The voltage at $C$ is zero.
+
+If $q = 2.75 \mu~\mathrm{C}$ and $L=3.4~\mathrm{m}$, what is the magnitude of the electric field at point $D$?
+
+> <b>Note:</b> The left and right vectors of the electric charge for $-q$ and $q$ cancel out. The only vector of the felid interacting with $D$ is the downward vector of both $+q$.
+
+$$r_{1}=\sqrt{L^{2}+\left(\frac{L}{2}\right)^{2}}$$
+
+$$E_{D}=\boxed{\frac{2kq}{r_{1}^{3}}\cdot L}$$
+
+##### Problem 7: CRT Deflection Static
+
+<figure align="center">
+  <img src="Topic_IE_Studio_Problem_7.jpg" style="height: 200px; width:auto">
+  <figcaption><b>Fig.21</b> - CRT Deflection Static.</figcaption>
+</figure>
+
+A charged particle is traveling to the left with some speed as it passes between the plates of a parallel plate capacitor held at potential $V$ and $-V$ , as shown in the figure above (assume $V>0$). The distance between the plates is $d=0.2~\mathrm{m}$ meters. The graph in the figure plots the vertical component of the particle's velocity as a function of time. The charge of the particle is <u>negative</u>
+
+If the voltage, $V$, is $0.87$ Volts, determine the ratio $q/m$ where $q$ and $m$ are the charge and mass of the particle respectively. Note that the part of the $v_{y}$ vs. $t$ graph with the slope starts at a point $(1.00~\mathrm{s}, 0.00~ \mathrm{m/s})$ and ends at a point $(1.16~\mathrm{s}, 1.77 ~ \mathrm{m/s})$. This region of $\Delta t$ and $\Delta v_{y}$ corresponds to when the charged particle is in the region of space in between the parallel plate capacitor.
+
+$$a=\frac{1.77~\mathrm{m/s}-0.00~\mathrm{m/s}}{1.16~\mathrm{s}-1.00~\mathrm{s}}$$
+
+$$E=\frac{\Delta V}{d}$$
+
+$$F=qE = ma \leadsto \frac{q}{m}=\frac{a}{E}$$
+
+$$\text{Ratio}\approx -1.27155172414~\frac{\mathrm{C}}{\mathrm{kg}}$$
+
+___
