@@ -1344,3 +1344,35 @@ Consider the figure shown below. $Q_1 = 1.3 \times 10^{-9} ~\mathrm{C}$ and $Q_2
 $$r_{1,3} = \sqrt{\left(0.03\right)^{2}+\left(0.04\right)^{2}}=5\cdot 10^{-2}\quad \text{and}\quad r_{2,3} = \sqrt{\left(0.02\right)^{2}+\left(0.04\right)^{2}} = 2\sqrt{5}\cdot 10^{-2}$$
 
 $$\sum V = \boxed{\underbrace{\frac{kQ_1}{r_{1,2}}}_{V_1}+\underbrace{\frac{kQ_2}{r_{2,3}}}_{V_2}}$$
+
+#### Topic IE Studio
+
+##### Problem 1: Conceptual Potential
+Below is a diagram of equipotential lines around a positive point charge $Q$ at the origin.
+
+<figure align="center">
+  <img src="Topic_IE_Homework_Problem_1.gif" style="height: 200px; width:auto">
+  <figcaption><b>Fig.19</b> - Conceptual Potential.</figcaption>
+</figure>
+
+The following are a series of <u> true </u> statements that correspond to the image above.
+
+- The potential energy of a negatively charged particle if released at $A$ will be <u>decreasing</u>.
+
+- A negatively charged particle, if released at $B$, will move in the direction of <u>increasing</u> voltage.
+
+- The potential energy of a positively charged particle if released at $C$ will be <u>decreasing</u>.
+
+- A positively charged particle, if released at $C$, will move in the direction of <u>decreasing</u> voltage.
+
+- The total energy of a negatively charged particle if released at $C$ will be <u>constant</u>.
+
+- The magnitude of work it takes you to move the charge from $C$ to A is <u>equal to</u> the magnitude of work it takes you to move it from $B$ to $A$.
+
+- The amount of work it takes you to move the charge along the curve from $C$ to $B$ is <u>equal to</u> the amount of work it takes you to move it from $C$ to $A$ to $B$ on straight line paths.
+
+- The voltage at $A$ is <u>greater than</u> the voltage at $B$.
+
+- The force from Q on a negatively charged particle placed at B is oriented <u>towards</u> the charge $Q$.
+
+- The magnitude of the force on a positive test charge at $B$ is <u>equal to</u> the magnitude of the force on the charge at $C$.
