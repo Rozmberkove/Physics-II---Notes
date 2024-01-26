@@ -4,20 +4,6 @@
 
 Welcome to the Physics 2: Electromagnetism repository! This repo contains lecture notes and worked-out homework problems for the course. Whether you're a student or instructor, you'll find valuable resources here.
 
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Course Blocks](#course-blocks)
-  - [Block 1: Electrostatics](#block-1-electrostatics)
-  - [Block 2: Circuits](#block-2-circuits)
-  - [Block 3: Magnetism](#block-3-magnetism)
-  - [Block 4: Electromagnetic Waves](#block-4-electromagnetic-waves)
-  - [Final Exam (Cumulative)](#final-exam-cumulative)
-- [Lecture Notes](#lecture-notes)
-- [Homework Problems](#homework-problems)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## Introduction
 
 This repo provides supplementary materials for the Physics 2: Electromagnetism course. It includes lecture notes and solutions to homework problems for a comprehensive understanding of electromagnetism principles.
@@ -28,7 +14,6 @@ This repo provides supplementary materials for the Physics 2: Electromagnetism c
 - **Block 2: Circuits**
 - **Block 3: Magnetism**
 - **Block 4: Electromagnetic Waves**
-- **Final Exam (Cumulative)**
 
 ## Lecture Notes
 
